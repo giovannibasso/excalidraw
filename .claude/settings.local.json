@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C \"C:\\\\Users\\\\basgiovanni\\\\Claude Projects\\\\excalidraw\" status)",
+      "Bash(git -C \"C:\\\\Users\\\\basgiovanni\\\\Claude Projects\\\\excalidraw\" init)",
+      "Bash(git add:*)"
+    ]
+  }
+}

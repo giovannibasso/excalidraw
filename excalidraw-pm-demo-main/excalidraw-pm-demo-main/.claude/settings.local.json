@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Write",
+      "Edit",
+      "Bash(git branch:*)",
+      "Bash(git remote add:*)",
+      "Bash(git remote set-url:*)",
+      "Bash(git push:*)",
+      "Bash(git checkout:*)",
+      "Bash(git stash:*)",
+      "Bash(git stash pop:*)",
+      "Bash(git commit:*)",
+      "Bash(git add:*)",
+      "Bash(yarn:*)",
+      "Skill(commit)",
+      "Skill(idea-to-prd)"
+    ]
+  }
+}
