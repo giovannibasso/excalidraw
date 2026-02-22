@@ -29,6 +29,8 @@ jobs:
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
+        env:
+          HUSKY: "0"
 
       - name: Build
         run: yarn build:app:docker
