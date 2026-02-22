@@ -28,9 +28,9 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
-        env:
-          HUSKY: "0"
+        run: |
+          git init
+          yarn install --frozen-lockfile
 
       - name: Build
         run: yarn build:app:docker
